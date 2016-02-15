@@ -5,7 +5,6 @@ import bob.ip.facedetect
 import bob.ip.draw
 
 # load colored test image
-import pkg_resources
 color_image = bob.io.base.load(bob.io.base.test_utils.datafile('testimage.jpg', 'bob.ip.facedetect'))
 
 # detect single face
